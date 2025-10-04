@@ -2,7 +2,9 @@
 #include<cstring>
 using namespace std;
 int main(){
-    char str[]="hello";
-    cout << str[2] << endl;
+    char str[100];
+    cout << "enter char array: ";
+    cin >> str;
+    cout << "output: "<< str<<endl;
     return 0;
 }
