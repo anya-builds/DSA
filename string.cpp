@@ -3,6 +3,6 @@
 using namespace std;
 int main(){
     char str[]="hello";
-    cout << strlen(str) << endl;
+    cout << str[2] << endl;
     return 0;
 }
