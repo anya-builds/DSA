@@ -4,14 +4,9 @@
 using namespace std;
 
 int main(){
-    deque<int> d={1,2,4,5};
+    pair<string,int> p={"Ankita",5};
 
-    
-
-    for(int val:d){
-        cout << val << " ";
-
-    }
-    cout << endl;
+    cout << p.first << endl;
+    cout << p.second << endl;
     return 0;
 }
